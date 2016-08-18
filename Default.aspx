@@ -18,6 +18,7 @@
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
     <link href="css/renovatech.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
@@ -155,12 +156,81 @@
 			</div><!--/.row-->
 		</div><!--/.container-->
 	</section>
+    <!-- services section -->
+    <!-- about section -->
+    <section id="intro" class="section intro no-padding">
+  <div class="container-fluid">
+    <div class="row no-gutter">
+      <div class="flexslider">
+        <ul class="slides">
+          <!-- li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img1.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1>We create Awesome Branding</h1>
+                <p> Bootstrap is completely free to download! Bootstrap Text Bootstrap Tables.... Bootstrap Button Groups Total Control	Bootstrap allows you to group a series of buttons together (on a single line) in a button group.Bootstrap Button Groups Total Control	Bootstrap allows you to group a series of buttons together (on a single line) in a button group.</p>
+               <p> Bootstrap is completely free to download! Bootstrap Text Bootstrap Tables.... Bootstrap Button Groups Total Control	Bootstrap allows you to group a series of buttons together (on a single line) in a button group.</p>
+              </blockquote>
+            </div>
+          </!-->
+          <li>
+            <div class="col-md-6">
+              <div class="avatar"> <img src="images/intro-img2.jpg" alt="" class="img-responsive"> </div>
+            </div>
+            <div class="col-md-6">
+              <blockquote>
+                <h1> Estudios de Análisis Eléctricos </h1>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh ac elit tempus, a condimentum leo luctus. Nullam lacinia volutpat dolor id dignissim. Proin eget magna cursus, condimentum felis at, bibendum elit. Pellentesque sodales sagittis augue ac tincidunt. Nulla rhoncus non lectus a fringilla. Curabitur vehicula dui lorem, at ornare nibh tristique at. Integer eu quam felis. Pellentesque gravida, tellus commodo aliquam consequat, nulla nisi pharetra lorem, vitae euismod est purus ac turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec metus eleifend, malesuada felis nec, pretium lorem. Vivamus dui ligula, accumsan vitae metus et, dignissim consequat lacus. </p>
+              </blockquote>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- about section -->
+    <!-- Work -->
+    <!-- works -->
+    <div id="work" class="works">
+        <div class="row">
+            <div class="col-sm-5 wowload fadeInLeft">
+                <div class="spacer1">
+                    <h2>
+                        Estudios de Mercados Energéticos</h2>
+                    <ul>
+                        <li><i class="fa fa-check"></i>Estudios de planeación de largo, mediano y corto plazo </li>
+                        <li><i class="fa fa-check"></i>Estudios en planes de expansión en generación, transmisión y distribución </li>
+                        <li><i class="fa fa-check"></i>Optimización de la canasta energética de empresas del sector eléctrico colombiano </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-7 wowload fadeInRight">
+                <div id="carousel-works" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/intro-img3.jpg" class="img-responsive"><!--a href="#" class="view"><i
+                                class="fa fa-external-link"></i> Ver</a --></div>
+                        <!-- div class="item">
+                            <img src="images/intro-img4.jpg" class="img-responsive"><a href="#" class="view"><i
+                                class="fa fa-external-link"></i> View</a></div>
+                        <div class="item">
+                            <img src="images/intro-img6.jpg" class="img-responsive"><a href="#" class="view"><i
+                                class="fa fa-external-link"></i> View</a></div -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works -->
         <!--/#feature-->
         <section id="middle">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 wow fadeInDown">
-                    <div class="text-center" style="height: 200px; color:lightgray; padding-top:90px;">SECCIÓN LOGOS</div>
+                    <div class="text-center" style="height: 200px; padding-top:90px;">SECCIÓN LOGOS</div>
 				</div><!--/.col-sm-12-->
 			</div><!--/.row-->
 		</div><!--/.container-->
@@ -263,6 +333,7 @@
         <!-- Jscript -->
         <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.flexslider-min.js"></script>
         <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
         <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
