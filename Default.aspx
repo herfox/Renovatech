@@ -128,6 +128,30 @@
 
 			    <div class="row">
 				    <div class="features">
+                        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="feature-wrap">
+                                <i class="fa fa-envira" aria-hidden="true"></i>
+                                <h2>Ingeniería</h2>
+                                <h3>Mauris ac elit massa. Cras id sapien scelerisque, hendrerit.</h3>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="feature-wrap">
+                                <i class="fa fa-cogs"></i>
+                                <h2>Desarrollo</h2>
+                                <h3>Nulla sem tellus, congue ac suscipit vel, porttitor.</h3>
+                            </div>
+                        </div><!--/.col-md-4-->
+
+                        <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                            <div class="feature-wrap">
+                                <i class="fa fa-share-alt"></i>
+                                <h2>Consultoría</h2>
+                                <h3>Nunc tempus, leo ac convallis volutpat.</h3>
+                            </div>
+                        </div><!--/.col-md-4-->
+
 					    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 						    <div class="feature-wrap">
 							    <i class="fa fa-pie-chart"></i>
@@ -208,7 +232,7 @@
 	        <div class="container">
 		        <div class="row">
 			        <div class="col-sm-12 wow fadeInDown">
-                        <div class="text-center" style="height: 200px; padding-top:90px;">SECCIÓN LOGOS</div>
+                        <div class="text-center" style="height: 200px; padding-top:90px;"></div>
 			        </div><!--/.col-sm-12-->
 		        </div><!--/.row-->
 	        </div><!--/.container-->
@@ -272,7 +296,7 @@
 		    <div class="container">
 			    <div class="row">
 				    <div class="col-sm-6">
-					    Renovatech &copy; 2016 <a target="_blank" href="http://ideacreativa.com/" title="Free Twitter Bootstrap asp.net templates">Idea Creativa</a>. Todos Los Derechos Reservados.
+					    <img src="images/logo_footer.png" /> &copy; 2016. Todos Los Derechos Reservados.
 				    </div>
 				    <div class="col-sm-6">
 					    <ul class="pull-right">
