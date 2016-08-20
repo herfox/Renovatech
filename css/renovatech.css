@@ -518,10 +518,18 @@ ul li {
 /* ------------------------------------------------------------------------------
 	 Intro
 -------------------------------------------------------------------------------*/
-.intro {
+#intro1 {
 	background-color: #000000;
+}
+
+#intro2 {
+	background-color: #0098D2;
+}
+
+.intro {
 	position: relative;
 }
+
 .intro blockquote {
 	border: 0;
 	margin: 0;
