@@ -250,15 +250,55 @@
     <!--/#services-->
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder4" Runat="Server">
-    <section id="middle">
-	    <div class="container">
-		    <div class="row">
-			    <div class="col-sm-12 wow fadeInDown">
-                    <div class="text-center" style="height: 200px; padding-top:90px;"></div>
-			    </div><!--/.col-sm-12-->
-		    </div><!--/.row-->
-	    </div><!--/.container-->
+    <section id="contactenos">
+        <div class="container">
+        <br />
+        <br />
+            <div class="center wow fadeInDown">
+                <h2>Déjanos Tu Mensaje</h2>
+                <p class="lead">Nos pondremos en contacto pronto.</p>
+            </div>
+            <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1 wow fadeInDown">
+                        <div class="form-group">
+                            <label>Nombre *</label>
+                               <asp:TextBox ID="txtName" CssClass="form-control" runat="server" required="required"></asp:TextBox>
+                             </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <asp:TextBox ID="txtemail" CssClass="form-control" runat="server" required="required"></asp:TextBox>
+
+                        </div>
+                        <div class="form-group">
+                            <label>Teléfono</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Compañía</label>
+                          <asp:TextBox ID="txtcmpnm" runat="server" CssClass="form-control" required="required"></asp:TextBox>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 wow fadeInDown">
+                        <div class="form-group">
+                            <label>Asunto *</label>
+                            <asp:TextBox ID="txtsubject" runat="server" CssClass="form-control" required="required"></asp:TextBox>
+
+                        </div>
+                        <div class="form-group">
+                            <label>Mensaje *</label>
+                            <asp:TextBox ID="txtmsg" runat="server" CssClass="form-control" required="required" Rows="8" TextMode="MultiLine"></asp:TextBox>
+
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                </form>
+            </div><!--/.row-->
+        </div><!--/.container-->
     </section>
-    <!--/#middle-->
+    <!--/#contact-page-->
 </asp:Content>
 

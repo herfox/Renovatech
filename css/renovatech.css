@@ -100,12 +100,52 @@ ul, ol {
     padding: 0;
 }
 
+.panel-body ul li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
 ul li {
     list-style: none;
 }
 
 #middle {
     background: #FFFFFF;
+}
+
+.panel-body {
+    padding: 20px 20px;
+}
+
+.panel-default > .panel-heading, .panel {
+    background-color: #E1E1E1;
+    border: 0 none;
+    box-shadow: none;
+}
+
+a.accordion-toggle i {
+    background: #CBCBCB;
+}
+
+.panel-heading.active {
+    background: #0098D2;
+}
+
+.panel-heading.active a.accordion-toggle i {
+    background: #000000;
+    color: #fff;
+}
+
+.panel-heading.active a.accordion-toggle.collapsed i {
+    background: #000000;
+}
+
+.btn-primary {
+    background: #0098D2;
+}
+
+.form-group .form-control {
+    border: 1px solid #78cbeb;
 }
 
 /*----------- Button -------------*/

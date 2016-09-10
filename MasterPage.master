@@ -51,142 +51,160 @@
 	                </div>
                 </div><%--container--%>
             </div><%--/top-bar--%>
-	        <nav class="navbar navbar-inverse" role="banner">
-			    <div class="container">
-				    <div class="navbar-header">
-					    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						    <span class="sr-only">Toggle navigation</span>
-						    <span class="icon-bar"></span>
-						    <span class="icon-bar"></span>
-						    <span class="icon-bar"></span>
-					    </button>
-					    <a class="navbar-brand" href="Default.aspx"><img src="images/logo.png" alt="logo"></a>
-				    </div>
+            <div class="menu">
+	            <nav class="navbar navbar-inverse" role="banner">
+			        <div class="container">
+				        <div class="navbar-header">
+					        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+					        </button>
+					        <a class="navbar-brand" href="Default.aspx"><img src="images/logo.png" alt="logo"></a>
+				        </div>
 
-				    <div class="collapse navbar-collapse navbar-right">
-					    <ul class="nav navbar-nav">
-						    <li class="active"><a href="Default.aspx">Inicio</a></li>
-                        <li><a href="#">Nosotros</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Page <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Ejemplo 1</a></li>
-                                <li><a href="#">Ejemplo 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Contáctenos</a></li>
-					    </ul>
-				    </div>
-			    </div><!--/.container-->
-		    </nav><!--/nav-->
+				        <div class="collapse navbar-collapse navbar-right">
+					        <ul class="nav navbar-nav">
+						        <li class="active"><a href="Default.aspx">Inicio</a></li>
+                            <li><a href="nosotros.aspx">Nosotros</a></li>
+                            <li><a href="servicios.aspx">Servicios</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Page <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Ejemplo 1</a></li>
+                                    <li><a href="#">Ejemplo 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="Default.aspx#contactenos">Contáctenos</a></li>
+					        </ul>
+				        </div>
+			        </div><!--/.container-->
+		        </nav><!--/nav-->
+            </div>
 	    </header>
-        <div>
-            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <div class="wrapper" style="margin-top: 0px;">
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
 
-            </asp:ContentPlaceHolder>
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder4" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+            <!--/#middle-->
+            <section id="bottom">
+		        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+			        <div class="row">
+				        <div class="col-md-3 col-sm-6">
+					        <div class="widget">
+						        <h3>Compañía</h3>
+						        <ul>
+							        <li><a href="#">Sobre Nosotros</a></li>
+							        <li><a href="#">Nuestro Equipo</a></li>
+							        <li><a href="#">Políticas de Privacidad</a></li>
+							        <li><a href="#">Contáctenos</a></li>
+						        </ul>
+					        </div>
+				        </div><!--/.col-md-3-->
+
+				        <div class="col-md-3 col-sm-6">
+					        <div class="widget">
+						        <h3>Servicios</h3>
+						        <ul>
+							        <li><a href="#">Consultoría</a></li>
+							        <li><a href="#">Gestión de Proyectos</a></li>
+							        <li><a href="#">Diseño y Planeación</a></li>
+							        <li><a href="#">Ingeniería Electrica</a></li>
+						        </ul>
+					        </div>
+				        </div><!--/.col-md-3-->
+
+				        <div class="col-md-3 col-sm-6">
+					        <div class="widget">
+						        <h3>Redes Sociales</h3>
+						        <ul>
+							        <li><a href="#">Facebook</a></li>
+							        <li><a href="#">Twitter</a></li>
+							        <li><a href="#">LinkedIn</a></li>
+							        <li><a href="#">Google</a></li>
+						        </ul>
+					        </div>
+				        </div><!--/.col-md-3-->
+
+				        <div class="col-md-3 col-sm-6">
+					        <div class="widget">
+						        <h3>Nuestros Aliados</h3>
+						        <ul>
+							        <li><a href="#">Inelco</a></li>
+							        <li><a href="#">Facelco</a></li>
+							        <li><a href="#">Cointelco</a></li>
+							        <li><a href="#">DUP</a></li>
+						        </ul>
+					        </div>
+				        </div><!--/.col-md-3-->
+			        </div>
+		        </div>
+	        </section>
+            <!--/#bottom-->
+            <footer id="footer" class="midnight-blue">
+		        <div class="container">
+			        <div class="row">
+				        <div class="col-sm-6">
+					        <img src="images/logo_footer.png" /> &copy; 2016. Todos Los Derechos Reservados.
+				        </div>
+				        <div class="col-sm-6">
+					        <ul class="pull-right">
+						        <li><a href="#">Inicio</a></li>
+						        <li><a href="#">Nosotros</a></li>
+						        <li><a href="#">Servicios</a></li>
+						        <li><a href="#">Contáctenos</a></li>
+					        </ul>
+				        </div>
+			        </div>
+		        </div>
+		        <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
+	        </footer>
+            <!--/#footer-->
         </div>
-        <div>
-            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
-
-            </asp:ContentPlaceHolder>
-        </div>
-        <div>
-            <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
-
-            </asp:ContentPlaceHolder>
-        </div>
-        <div>
-            <asp:ContentPlaceHolder id="ContentPlaceHolder4" runat="server">
-
-            </asp:ContentPlaceHolder>
-        </div>
-        <!--/#middle-->
-        <section id="bottom">
-		    <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-			    <div class="row">
-				    <div class="col-md-3 col-sm-6">
-					    <div class="widget">
-						    <h3>Compañía</h3>
-						    <ul>
-							    <li><a href="#">Sobre Nosotros</a></li>
-							    <li><a href="#">Nuestro Equipo</a></li>
-							    <li><a href="#">Políticas de Privacidad</a></li>
-							    <li><a href="#">Contáctenos</a></li>
-						    </ul>
-					    </div>
-				    </div><!--/.col-md-3-->
-
-				    <div class="col-md-3 col-sm-6">
-					    <div class="widget">
-						    <h3>Servicios</h3>
-						    <ul>
-							    <li><a href="#">Consultoría</a></li>
-							    <li><a href="#">Gestión de Proyectos</a></li>
-							    <li><a href="#">Diseño y Planeación</a></li>
-							    <li><a href="#">Ingeniería Electrica</a></li>
-						    </ul>
-					    </div>
-				    </div><!--/.col-md-3-->
-
-				    <div class="col-md-3 col-sm-6">
-					    <div class="widget">
-						    <h3>Redes Sociales</h3>
-						    <ul>
-							    <li><a href="#">Facebook</a></li>
-							    <li><a href="#">Twitter</a></li>
-							    <li><a href="#">LinkedIn</a></li>
-							    <li><a href="#">Google</a></li>
-						    </ul>
-					    </div>
-				    </div><!--/.col-md-3-->
-
-				    <div class="col-md-3 col-sm-6">
-					    <div class="widget">
-						    <h3>Nuestros Aliados</h3>
-						    <ul>
-							    <li><a href="#">Inelco</a></li>
-							    <li><a href="#">Facelco</a></li>
-							    <li><a href="#">Cointelco</a></li>
-							    <li><a href="#">DUP</a></li>
-						    </ul>
-					    </div>
-				    </div><!--/.col-md-3-->
-			    </div>
-		    </div>
-	    </section>
-        <!--/#bottom-->
-        <footer id="footer" class="midnight-blue">
-		    <div class="container">
-			    <div class="row">
-				    <div class="col-sm-6">
-					    <img src="images/logo_footer.png" /> &copy; 2016. Todos Los Derechos Reservados.
-				    </div>
-				    <div class="col-sm-6">
-					    <ul class="pull-right">
-						    <li><a href="#">Inicio</a></li>
-						    <li><a href="#">Nosotros</a></li>
-						    <li><a href="#">Servicios</a></li>
-						    <li><a href="#">Contáctenos</a></li>
-					    </ul>
-				    </div>
-			    </div>
-		    </div>
-		    <a href="#" class="back-to-top"><i class="fa fa-2x fa-angle-up"></i></a>
-	    </footer>
-        <!--/#footer-->
         <!-- Back To Top -->
         <script type="text/javascript">
             jQuery(document).ready(function () {
                 var offset = 300;
                 var duration = 500;
                 jQuery(window).scroll(function () {
+                    posicionarMenu();
                     if (jQuery(this).scrollTop() > offset) {
                         jQuery('.back-to-top').fadeIn(duration);
                     } else {
                         jQuery('.back-to-top').fadeOut(duration);
                     }
                 });
+
+                function posicionarMenu() {
+                    var altura_del_header = $('.top-bar').outerHeight(true);
+                    var altura_del_menu = $('.navbar-fixed-top').outerHeight(true);
+
+                    if ($(window).scrollTop() >= altura_del_header) {
+                        $('.menu').addClass('fixed');
+                        $('.wrapper').css('margin-top', (altura_del_menu) + 'px');
+                    } else {
+                        $('.menu').removeClass('fixed');
+                        $('.wrapper').css('margin-top', '0');
+                    }
+                }
 
                 jQuery('.back-to-top').click(function (event) {
                     event.preventDefault();
