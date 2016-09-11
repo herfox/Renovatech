@@ -148,7 +148,7 @@
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-envira" aria-hidden="true"></i>
-                            <h2>Ingeniería</h2>
+                            <h2>Mercados Energéticos</h2>
                             <h3>Mauris ac elit massa. Cras id sapien scelerisque, hendrerit.</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -157,14 +157,14 @@
                         <div class="feature-wrap">
                             <i class="fa fa-cogs"></i>
                             <h2>Desarrollo</h2>
-                            <h3>Nulla sem tellus, congue ac suscipit vel, porttitor.</h3>
+                            <h3>De modelos de simulación y operación.</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-share-alt"></i>
-                            <h2>Consultoría</h2>
+                            <h2>Análisis Eléctricos</h2>
                             <h3>Nunc tempus, leo ac convallis volutpat.</h3>
                         </div>
                     </div><!--/.col-md-4-->
@@ -172,7 +172,7 @@
 					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-pie-chart"></i>
-							<h2>Gestión</h2>
+							<h2>Análisis Regulatorio</h2>
 							<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
 						</div>
 					</div><!--/.col-md-4-->
@@ -180,7 +180,7 @@
 					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-area-chart"></i>
-							<h2>Soluciones</h2>
+							<h2>Market Design</h2>
 							<h3>Cras sapien orci, elementum sit amet leo ac, gravida.</h3>
 						</div>
 					</div><!--/.col-md-4-->
@@ -188,7 +188,7 @@
 					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-line-chart"></i>
-							<h2>Asesoría</h2>
+							<h2>Capacitación</h2>
 							<h3>In sit amet turpis in sem aliquet pharetra sed a ipsum. </h3>
 						</div>
 					</div><!--/.col-md-4-->
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-md-6">
                     <blockquote>
-                    <h1> Estudios de Análisis Eléctricos </h1>
+                    <h1> ¿Quiénes Somos? </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh ac elit tempus, a condimentum leo luctus. Nullam lacinia volutpat dolor id dignissim. Proin eget magna cursus, condimentum felis at, bibendum elit. Pellentesque sodales sagittis augue ac tincidunt. Nulla rhoncus non lectus a fringilla. Curabitur vehicula dui lorem, at ornare nibh tristique at. Integer eu quam felis. Pellentesque gravida, tellus commodo aliquam consequat, nulla nisi pharetra lorem, vitae euismod est purus ac turpis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed nec metus eleifend, malesuada felis nec, pretium lorem. Vivamus dui ligula, accumsan vitae metus et, dignissim consequat lacus. </p>
                     </blockquote>
                 </div>
@@ -233,7 +233,7 @@
                 <li>
                 <div class="col-md-6">
                     <blockquote>
-                    <h1>Estudios de Mercados Energéticos</h1>
+                    <h1> ¿Porqué Elegirnos? </h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta nibh ac elit tempus, a condimentum leo luctus. Nullam lacinia volutpat dolor id dignissim. Proin eget magna cursus, condimentum felis at, bibendum elit. Pellentesque sodales sagittis augue ac tincidunt. Nulla rhoncus non lectus a fringilla. Curabitur vehicula dui lorem, at ornare nibh tristique at. Integer eu quam felis. Pellentesque gravida, tellus commodo aliquam consequat, nulla nisi pharetra lorem, vitae euismod est purus ac turpis. </p>
                     </blockquote>
                 </div>
