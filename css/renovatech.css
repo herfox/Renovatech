@@ -18,8 +18,16 @@
     background: #0098D2;
 }
 
+.fixed{
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 2000;
+}
+
 .back-to-top {
     background-color: #0098D2;
+    z-index: 3;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {

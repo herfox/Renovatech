@@ -195,7 +195,7 @@
 
                 function posicionarMenu() {
                     var altura_del_header = $('.top-bar').outerHeight(true);
-                    var altura_del_menu = $('.navbar-fixed-top').outerHeight(true);
+                    var altura_del_menu = $('.menu').outerHeight(true);
 
                     if ($(window).scrollTop() >= altura_del_header) {
                         $('.menu').addClass('fixed');
