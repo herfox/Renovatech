@@ -66,17 +66,17 @@
 
 				        <div class="collapse navbar-collapse navbar-right">
 					        <ul class="nav navbar-nav">
-						        <li class="active"><a href="Default.aspx">Inicio</a></li>
-                            <li><a href="nosotros.aspx">Nosotros</a></li>
-                            <li><a href="servicios.aspx">Servicios</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Page <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Ejemplo 1</a></li>
-                                    <li><a href="#">Ejemplo 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="Default.aspx#contactenos">Contáctenos</a></li>
+						        <li id="Default"><a href="Default.aspx">Inicio</a></li>
+                                <li id="nosotros"><a href="nosotros.aspx">Nosotros</a></li>
+                                <li id="servicios"><a href="servicios.aspx">Servicios</a></li>
+                                <li id="masterpage" class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Page <i class="fa fa-angle-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Ejemplo 1</a></li>
+                                        <li><a href="#">Ejemplo 2</a></li>
+                                    </ul>
+                                </li>
+                                <li id="contact" onclick="selectItem('#contact')"><a href="Default.aspx#contactenos">Contáctenos</a></li>
 					        </ul>
 				        </div>
 			        </div><!--/.container-->
@@ -181,9 +181,30 @@
         </div>
         <!-- Back To Top -->
         <script type="text/javascript">
+            selectItem();
+            function selectItem(page) {
+                console.log(page);
+                if (!page) {
+                    console.log(document.location.hash);
+                    if (document.location.hash == '#contactenos') {
+                        page = '#contact';
+                    }
+                    else {
+                        var path = window.location.pathname;
+                        var page = '#' + path.replace('/', '').replace('.aspx', '');
+                    }
+                }
+                else {
+                    $("#Default").removeClass("active");
+                }
+                $(page).addClass("active");
+            }
+
             jQuery(document).ready(function () {
+
                 var offset = 300;
                 var duration = 500;
+
                 jQuery(window).scroll(function () {
                     posicionarMenu();
                     if (jQuery(this).scrollTop() > offset) {

@@ -25,6 +25,14 @@
     z-index: 2000;
 }
 
+.ancla:before {
+      display: block;
+      content: " ";
+      margin-top: -122px;
+      height: 122px;
+      visibility: hidden;
+}
+
 .back-to-top {
     background-color: #0098D2;
     z-index: 3;
