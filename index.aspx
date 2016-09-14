@@ -147,7 +147,7 @@
             </div>
             <div class="row contact-wrap">
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="">
                     <div class="col-sm-5 col-sm-offset-1 wow fadeInDown">
                         <div class="form-group">
                             <label>Nombre *</label>
@@ -160,7 +160,7 @@
                         </div>
                         <div class="form-group">
                             <label>Teléfono</label>
-                            <input type="number" class="form-control">
+                            <asp:TextBox ID="numPhone" CssClass="form-control" runat="server" type="number" required="required"></asp:TextBox>
                         </div>
                         <div class="form-group">
                             <label>Compañía</label>
@@ -179,7 +179,9 @@
 
                         </div>
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Enviar Mensaje</button>
+                            <asp:LinkButton ID="btnEnviarEmail" runat="server" CssClass="btn btn-primary btn-lg" OnClientClick="return confirm('¿Seguro que quiere mandar el mensaje?');" OnClick="btnEnviar_Click" >
+                                Enviar Email
+                            </asp:LinkButton>
                         </div>
                     </div>
                 </form>
