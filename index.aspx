@@ -162,11 +162,11 @@
 
                         </div>
                         <div class="form-group">
-                            <label>Teléfono</label>
+                            <label>Teléfono *</label>
                             <asp:TextBox ID="numPhone" CssClass="form-control" runat="server" type="number" required="required"></asp:TextBox>
                         </div>
                         <div class="form-group">
-                            <label>Compañía</label>
+                            <label>Compañía *</label>
                           <asp:TextBox ID="txtcmpnm" runat="server" CssClass="form-control" required="required"></asp:TextBox>
                         </div>
                     </div>

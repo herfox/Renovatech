@@ -164,7 +164,7 @@ a.accordion-toggle i {
     background: #0098D2;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
     background: #0098D2 !important;
 }
 
