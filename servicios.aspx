@@ -190,8 +190,7 @@
             url = document.URL;
             url = String(url.match(/\?+.+/));
             tab = url.replace("?", "#");
-
-            if (tab) {
+            if (tab != "null") {
                 $(tab).addClass("active");
                 $(tab+"c").addClass("in");
             }
