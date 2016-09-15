@@ -169,6 +169,7 @@
 	        </footer>
             <!--/#footer-->
         </div>
+    </form>
         <!-- Back To Top -->
         <script type="text/javascript">
             selectItem();
@@ -233,6 +234,8 @@
         <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
         <script src="js/main.js" type="text/javascript"></script>
         <script src="js/wow.min.js" type="text/javascript"></script>
-    </form>
+
+        <asp:ContentPlaceHolder id="scripts" runat="server">
+        </asp:ContentPlaceHolder>
 </body>
 </html>

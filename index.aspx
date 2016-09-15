@@ -50,42 +50,42 @@
 
 			<div class="row">
 				<div class="features">
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div id="servicio1" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-envira" aria-hidden="true"></i>
                             <h2>Herramientas de Simulación</h2>
                         </div>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div id="servicio2" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-cogs"></i>
                             <h2>Estudios de Análisis Eléctricos</h2>
                         </div>
                     </div><!--/.col-md-4-->
 
-                    <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div id="servicio3" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
                             <i class="fa fa-share-alt"></i>
                             <h2>Estudios de Mercados Energéticos</h2>
                         </div>
                     </div><!--/.col-md-4-->
 
-					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<div id="servicio4" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-pie-chart"></i>
 							<h2>Estudios de Análisis Regulatorio</h2>
 						</div>
 					</div><!--/.col-md-4-->
 
-					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<div id="servicio5" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-area-chart"></i>
 							<h2>Market Design</h2>
 						</div>
 					</div><!--/.col-md-4-->
 
-					<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+					<div id="servicio6" class="col-md-4 col-sm-6 wow fadeInDown servicio" data-wow-duration="1000ms" data-wow-delay="600ms">
 						<div class="feature-wrap">
 							<i class="fa fa-line-chart"></i>
 							<h2>Capacitación y Consultoría</h2>
@@ -189,5 +189,32 @@
         </div><!--/.container-->
     </section>
     <!--/#contact-page-->
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="scripts" Runat="Server">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#servicio1").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio1").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio2").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio3").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio4").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio5").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+            $("#servicio6").click(function () {
+                window.location.href = "servicios.aspx";
+            });
+        });
+    </script>
 </asp:Content>
 
