@@ -19,15 +19,15 @@
                     <div class="accordion">
                         <div class="panel-group" id="accordion1">
                           <div class="panel panel-default">
-                            <div class="panel-heading active">
+                            <div id="1" class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#1c">
                                   Herramientas de simulación de Mercados Eléctricos
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseOne1" class="panel-collapse collapse in">
+                            <div id="1c" class="panel-collapse collapse">
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                         <div class="col-md-3">
@@ -50,15 +50,15 @@
                           </div>
 
                           <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div id="2" class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#2c">
                                   Estudios de Análisis Eléctricos
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseTwo1" class="panel-collapse collapse">
+                            <div id="2c" class="panel-collapse collapse">
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                     <div class="col-md-3">
@@ -86,15 +86,15 @@
                           </div>
 
                           <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div id="3" class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#3c">
                                   Estudios de Mercados Energéticos
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseThree1" class="panel-collapse collapse">
+                            <div id="3c" class="panel-collapse collapse">
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                     <div class="col-md-2">
@@ -116,15 +116,15 @@
                           </div>
 
                           <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div id="4" class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#4c">
                                    Estudios de Análisis Regulatorio y Market Design
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFour1" class="panel-collapse collapse">
+                            <div id="4c" class="panel-collapse collapse">
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                     <div class="col-md-2">
@@ -144,15 +144,15 @@
                           </div>
 
                           <div class="panel panel-default">
-                            <div class="panel-heading">
+                            <div id="5" class="panel-heading">
                               <h3 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#5c">
                                    Capacitaciones
                                   <i class="fa fa-angle-right pull-right"></i>
                                 </a>
                               </h3>
                             </div>
-                            <div id="collapseFive1" class="panel-collapse collapse">
+                            <div id="5c" class="panel-collapse collapse">
                               <div class="panel-body">
                                   <div class="media accordion-inner">
                                     <div class="col-md-2">
@@ -181,5 +181,26 @@
 <asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder3" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content5" ContentPlaceHolderID="ContentPlaceHolder4" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="scripts" Runat="Server">
+    <script type="text/javascript">
+        selectTab();
+        function selectTab() {
+
+            url = document.URL;
+            url = String(url.match(/\?+.+/));
+            tab = url.replace("?", "#");
+
+            if (tab) {
+                $(tab).addClass("active");
+                $(tab+"c").addClass("in");
+            }
+            else {
+                $("#1").addClass("active");
+                $("#1c").addClass("in");
+            }
+
+        }
+    </script>
 </asp:Content>
 

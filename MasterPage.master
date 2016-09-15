@@ -116,22 +116,20 @@
 					        <div class="widget">
 						        <h3>Servicios</h3>
 						        <ul>
-							        <li><a href="servicios.aspx">Herramientas de Simulación</a></li>
-							        <li><a href="servicios.aspx">Estudios y Análisis</a></li>
-							        <li><a href="servicios.aspx">Diseño y Planeación</a></li>
-							        <li><a href="servicios.aspx">Capacitación</a></li>
+							        <li><a href="servicios.aspx?1">Herramientas de Simulación</a></li>
+							        <li><a href="servicios.aspx?2">Análisis Eléctricos</a></li>
+							        <li><a href="servicios.aspx?3">Mercados Energéticos</a></li>
 						        </ul>
 					        </div>
 				        </div><!--/.col-md-3-->
 
 				        <div class="col-md-3 col-sm-6">
 					        <div class="widget">
-						        <h3>Redes Sociales</h3>
+						        <h3>&nbsp;</h3>
 						        <ul>
-							        <li><a href="#">Facebook</a></li>
-							        <li><a href="#">Twitter</a></li>
-							        <li><a href="#">LinkedIn</a></li>
-							        <li><a href="#">Google</a></li>
+							        <li><a href="servicios.aspx?4">Análisis Regulatorio</a></li>
+							        <li><a href="servicios.aspx?4">Merket Design</a></li>
+							        <li><a href="servicios.aspx?5">Capacitaciones</a></li>
 						        </ul>
 					        </div>
 				        </div><!--/.col-md-3-->
@@ -175,7 +173,6 @@
             selectItem();
             function selectItem(page) {
                 if (!page) {
-                    console.log(document.location.hash);
                     if (document.location.hash == '#contactenos') {
                         page = '#contact';
                     }

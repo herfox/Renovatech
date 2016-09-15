@@ -197,25 +197,22 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("#servicio1").click(function () {
-                window.location.href = "servicios.aspx";
-            });
-            $("#servicio1").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?1";
             });
             $("#servicio2").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?2";
             });
             $("#servicio3").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?3";
             });
             $("#servicio4").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?4";
             });
             $("#servicio5").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?4";
             });
             $("#servicio6").click(function () {
-                window.location.href = "servicios.aspx";
+                window.location.href = "servicios.aspx?5";
             });
         });
     </script>
