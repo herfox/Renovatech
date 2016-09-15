@@ -164,6 +164,10 @@ a.accordion-toggle i {
     background: #0098D2;
 }
 
+.btn-primary:hover {
+    background: #0098D2 !important;
+}
+
 .form-group .form-control {
     border: 1px solid #78cbeb;
 }

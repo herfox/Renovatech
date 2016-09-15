@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Renovatech" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="_index" %>
+﻿<%@ Page Title="Renovatech" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="_index" MaintainScrollPositionOnPostback="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -144,10 +144,13 @@
             <div class="center wow fadeInDown">
                 <h2>Déjanos Tu Mensaje</h2>
                 <p class="lead">Nos pondremos en contacto pronto.</p>
+                <div class="row">
+                    <asp:Label ID="lbResult" runat="server"></asp:Label>
+                </div>
             </div>
             <div class="row contact-wrap">
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="">
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post">
                     <div class="col-sm-5 col-sm-offset-1 wow fadeInDown">
                         <div class="form-group">
                             <label>Nombre *</label>
@@ -179,8 +182,8 @@
 
                         </div>
                         <div class="form-group">
-                            <asp:LinkButton ID="btnEnviarEmail" runat="server" CssClass="btn btn-primary btn-lg" OnClientClick="return confirm('¿Seguro que quiere mandar el mensaje?');" OnClick="btnEnviar_Click" >
-                                Enviar Email
+                            <asp:LinkButton ID="btnEnviarEmail" runat="server" CssClass="btn btn-primary btn-lg" OnClientClick="" OnClick="btnEnviar_Click" >
+                                Enviar Mensaje
                             </asp:LinkButton>
                         </div>
                     </div>
